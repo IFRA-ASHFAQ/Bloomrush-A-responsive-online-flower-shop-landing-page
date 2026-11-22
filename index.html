@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloomrush-Online Flower Shop</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- bootstrap-icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="site-header">
+        <nav class="container navbar" aria-label="Main navigation">
+
+            <a href="#home" class="logo"><span class="logo-icon"><i class="fa-solid fa-seedling"></i></span>
+                Bloomrush</a>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-button" aria-label="Open menu">
+                <span></span><span></span><span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#top-sellers">Shop</a></li>
+                <li><a href="#occasions">Occasions</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#FAQs">FAQs</a> </li>
+                <li><a href="#footer">Contact Us</a></li>
+            </ul>
+
+            <ul class="nav-icons">
+                <li aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li aria-label="wishlist"> <i class="fa-regular fa-heart"></i></li>
+                <li aria-label="cart"><i class="fa-brands fa-opencart"></i></li>
+                <li aria-label="account"><i class="fa-regular fa-user"></i></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- 1. hero-section -->
+    <section class="hero-section" id="home">
+
+        <div class="container hero-content">
+
+            <div class="hero-text">
+                <p class="pill"><span class="logo-icon pill-icon"><i class="fa-solid fa-seedling"></i></span>Your
+                    trusted
+                    online flower shop</p>
+                <h1>The Ultimate <span>Flower Shopping</span> Destination</h1>
+                <p class="sub-text">Fresh bouquets, plants, and gifts picked this morning and delivered to your door
+                    in hours.</p>
+
+                <div class="hero-actions">
+                    <a href="#top-sellers" class="button"> Shop now <span><i
+                                class="fa-solid fa-arrow-right"></i></span></a>
+                    <a href="#top-sellers" class="text-link">View all products</a>
+                </div>
+
+                <div class="rating">
+
+                    <div class="avatars">
+                        <img src="images/avatar-1.jpg" alt="avatar">
+                        <img src="images/avatar-2.jpg" alt="avatar">
+                        <img src="images/avatar-3.jpg" alt="avatar">
+                        <span>+</span>
+                    </div>
+                    <p><strong>4.9+ Ratings</strong><small>Trusted by 95k+ customers</small></p>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <img src="images/hero-image.png" alt="Smiling woman holding a large colorful bouquet">
+                <p class="chip chip-payment"><span><i class="fa-regular fa-credit-card"></i></span>Secure payment</p>
+                <p class="chip chip-delivery"><span><i class="fa-solid fa-truck"></i></span>Fast delivery</p>
+                <p class="seal" aria-hidden="true">Shop now</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 2. ABOUT-US -->
+    <section class="section section-tint" id="about">
+        <div class="container about-content">
+
+            <div class="about-visual"> <img src="images/about.jpg" alt="Florist holding a wrapped bouquet in her shop"
+                    width="420" height="420" loading="lazy"></div>
+
+            <div class="about-text">
+
+                <p class="eyebrow">About us</p>
+                <h2>Delivering <em>nature’s</em> beauty to your door</h2>
+                <p>We work with local growers to bring fresh flowers and healthy plants straight from the field to
+                    your home, office, or celebration.</p>
+
+                <ul class="stats">
+                    <li><strong>20+</strong> Categories</li>
+                    <li><strong>1000+</strong> Products</li>
+                    <li><strong>99%</strong> Satisfied customers</li>
+                </ul>
+
+                <p class="signature">Jenny Alexander</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 3. TOP SELLER PRODUCTS -->
+    <section class="section" id="top-sellers">
+        <div class="container">
+
+            <header class="section-header">
+                <div>
+                    <p class="eyebrow">Our products</p>
+                    <h2>Our <em>top seller</em> products</h2>
+                </div>
+                <a href="#deals" class="button button-small">View all products</a>
+            </header>
+
+            <div class="product-grid product-grid-4">
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/top-1.png" alt="Blue and white bouquet" loading="lazy">
+                        <span class="badge">50% off</span>
+                        <ul class="product-actions">
+                            <li><a href="#" aria-label="Add to wishlist"><i class="fa-regular fa-heart"></i></a> </li>
+                            <li><a href="#" aria-label="quick view"><i class="fa-solid fa-expand"></i></a> </li>
+                            <li><a href="#" aria-label="Add to cart"><i class="bi bi-bag"></i></a></li>
+                        </ul>
+                        <ul class="timer">
+                            <li><strong>05</strong> Days</li>
+                            <li><strong>12</strong> Hours</li>
+                            <li><strong>30</strong> Mins</li>
+                            <li><strong>25</strong> Sec</li>
+                        </ul>
+                    </div>
+                    <p class="product-meta">Bouquets <span>★ 4.9</span></p>
+                    <h3>Blue White Bouquet</h3>
+                    <p class="price">$45.00 <s>$90.00</s></p>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/top-2.png" alt="Pink rose bouquet" loading="lazy">
+                        <span class="badge">20% off</span>
+                        <ul class="product-actions">
+                            <li><a href="#" aria-label="Add to wishlist"><i class="fa-regular fa-heart"></i></a> </li>
+                            <li><a href="#" aria-label="quick view"><i class="fa-solid fa-expand"></i></a> </li>
+                            <li><a href="#" aria-label="Add to cart"><i class="bi bi-bag"></i></a></li>
+                        </ul>
+                    </div>
+                    <p class="product-meta">Bouquets <span>★ 4.9</span></p>
+                    <h3>Royal Pink Bouquet</h3>
+                    <p class="price">$48.00 <s>$60.00</s></p>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/top-3.png" alt="Lavender bouquet" loading="lazy">
+                        <span class="badge">20% off</span>
+                        <ul class="product-actions">
+                            <li><a href="#" aria-label="Add to wishlist"><i class="fa-regular fa-heart"></i></a> </li>
+                            <li><a href="#" aria-label="quick view"><i class="fa-solid fa-expand"></i></a> </li>
+                            <li><a href="#" aria-label="Add to cart"><i class="bi bi-bag"></i></a></li>
+                        </ul>
+                    </div>
+                    <p class="product-meta">Bouquets <span>★ 4.9</span></p>
+                    <h3>Lavender bouquet</h3>
+                    <p class="price">$24.00 <s>$30.00</s></p>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+
+                        <img src="images/top-4.png" alt="Garden rose bouquet" loading="lazy">
+                        <span class="badge">30% off</span>
+                        <ul class="product-actions">
+                            <li><a href="#" aria-label="Add to wishlist"><i class="fa-regular fa-heart"></i></a> </li>
+                            <li><a href="#" aria-label="quick view"><i class="fa-solid fa-expand"></i></a> </li>
+                            <li><a href="#" aria-label="Add to cart"><i class="bi bi-bag"></i></a></li>
+                        </ul>
+                    </div>
+                    <p class="product product-meta">Bouquets <span>★ 4.9</span></p>
+                    <h3>Garden Rose Bouquet</h3>
+                    <p class="price">$35.00 <s>$50.00</s></p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. HOLIDAY SALE -->
+
+    <section class="section sale">
+        <div class="container sale-content">
+            <img src="images/sale-1.jpg" alt="Florist arranging flowers on a table" loading="lazy">
+
+            <div class="sale-offer">
+                <h2><em>Holiday</em> sales</h2>
+                <p>Get 50% off. Limited time offer!</p>
+
+                <ul class="countdown">
+                    <li><strong>04</strong> Days</li>
+                    <i aria-hidden="true">:</i>
+                    <li><strong>14</strong> Hours</li>
+                    <i aria-hidden="true">:</i>
+                    <li><strong>48</strong> Minutes</li>
+                    <i aria-hidden="true">:</i>
+                    <li><strong>18</strong> Seconds</li>
+                </ul>
+
+                <a href="#deals" class="button">Shop now <span><i class="fa-solid fa-arrow-right"></i></span></a>
+            </div>
+
+            <img src="images/sale-2.jpg" alt="Woman holding a bouquet in a flower shop" loading="lazy">
+        </div>
+    </section>
+
+
+    <!-- OCCASIONS STRIP -->
+    <div class="marquee" id="occasions" aria-hidden="true">
+        <ul class="marquee-track">
+            <li>Birthday</li>
+            <li><span class="logo-icon"><i class="fa-solid fa-seedling"></i></span></li>
+            <li>Weddings</li>
+            <li><span class="logo-icon"><i class="fa-solid fa-seedling"></i></span></li>
+            <li>Anniversary</li>
+            <li><span class="logo-icon"><i class="fa-solid fa-seedling"></i></span></li>
+            <li>Thank you</li>
+            <li><span class="logo-icon"><i class="fa-solid fa-seedling"></i></span></li>
+            <li>Graduation</li>
+            <li><span class="logo-icon"><i class="fa-solid fa-seedling"></i></span></li>
+            <li>Get well soon</li>
+            <li><span class="logo-icon"><i class="fa-solid fa-seedling"></i></span></li>
+            <!-- The same items repeat so the strip loops without a gap -->
+            <li>Birthday</li>
+            <li><span class="logo-icon"><i class="fa-solid fa-seedling"></i></span></li>
+            <li>Weddings</li>
+            <li><span class="logo-icon"><i class="fa-solid fa-seedling"></i></span></li>
+            <li>Anniversary</li><span class="logo-icon"><i class="fa-solid fa-seedling"></i></span></li>
+            <li>Thank you</li>
+            <li><span class="logo-icon"><i class="fa-solid fa-seedling"></i></span></li>
+            <li>Graduation</li>
+            <li><span class="logo-icon"><i class="fa-solid fa-seedling"></i></span></li>
+            <li>Get well soon</li>
+            <li><span class="logo-icon"><i class="fa-solid fa-seedling"></i></span></li>
+        </ul>
+    </div>
+
+    <!-- 5. TESTIMONIALS -->
+
+    <section class="section section-tint" id="reviews">
+        <div class="container">
+            <header class="section-header2">
+                <p class="eyebrow">Testimonial</p>
+                <h2>What <em>our clients</em> say</h2>
+            </header>
+
+            <div class="review-grid">
+                <blockquote class="review">
+                    <p class="stars">★★★★★ <span>5.0</span></p>
+                    <h3>Gorgeous bouquets!</h3>
+                    <p>The flowers arrived fresh in two hours and looked even better than the photos. Everyone at the
+                        party asked where I ordered them.</p>
+                    <footer>
+                        <img src="images/avatar-1.jpg" alt="" loading="lazy">
+                        <p><strong>Zaryab</strong><small>Happy customer</small></p>
+                    </footer>
+                </blockquote>
+
+                <blockquote class="review">
+                    <p class="stars">★★★★★ <span>5.0</span></p>
+                    <h3>Beautiful flowers!</h3>
+                    <p>I order a bouquet for my mother every month. The packaging is lovely and the delivery is always
+                        on time.</p>
+                    <footer>
+                        <img src="images/avatar-2.jpg" alt="" loading="lazy">
+                        <p><strong>Zamil</strong><small>Happy customer</small></p>
+                    </footer>
+                </blockquote>
+
+                <blockquote class="review">
+                    <p class="stars">★★★★★ <span>5.0</span></p>
+                    <h3>Beautiful flowers!</h3>
+                    <p>I order a bouquet for my mother every month. The packaging is lovely and the delivery is always
+                        on time.</p>
+                    <footer>
+                        <img src="images/avatar-3.jpg" alt="" loading="lazy">
+                        <p><strong>Abu Bakar</strong><small>Happy customer</small></p>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="section footer-wrapper" id="footer">
+        <div class="container site-footer">
+
+            <div class="footer-grid">
+
+                <div class="footer-brand">
+                    <a href="#home" class="logo"><span class="logo-icon"><i class="fa-solid fa-seedling"></i></span>
+                        Bloomrush</a>
+                    <p>Fresh flowers, bouquets, and plants delivered with care. Make every moment bloom.</p>
+                    <ul class="socials">
+                        <li><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#" aria-label="X"><i class="fa-solid fa-x"></i></a></li>
+                        <li><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a></li>
+                    </ul>
+                </div>
+
+                <nav aria-label="Company">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#newsletter">Contact us</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </nav>
+
+                <nav aria-label="Customer service">
+                    <h4>Customer service</h4>
+                    <ul>
+                        <li><a href="#">My account</a></li>
+                        <li><a href="#">Track your order</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </nav>
+
+                <nav aria-label="Information">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms and conditions</a></li>
+                        <li><a href="#">Return policy</a></li>
+                    </ul>
+                </nav>
+
+                <div>
+                    <h4>Contact info</h4>
+                    <ul>
+                        <li>+123-456-789</li>
+                        <li>hello@bloomrush.example</li>
+                        <li>Karachi, Pakistan</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Bloomrush. All rights reserved. A portfolio project.</p>
+                <p>English | USD</p>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

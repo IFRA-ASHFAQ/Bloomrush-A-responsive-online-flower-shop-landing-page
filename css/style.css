@@ -30,6 +30,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 4.75rem;
 }
 
 body {
@@ -217,7 +218,7 @@ color: var(--green);
 .nav-links a {
     text-decoration: none;
     color: var(--ink);
-    /* position: relative; */
+    position: relative;
 }
 
 .nav-links a:hover {
@@ -878,7 +879,8 @@ img {
 
   .about-text h2,
   .section-header h2,
-  .section-header2 h2 {
+  .section-header2 h2,
+  .newsletter h2 {
     font-size: 2rem;
   }
 
@@ -923,10 +925,6 @@ img {
     grid-template-columns: 1fr 2fr 1fr;
   }
 
-  .sale-offer {
-        padding: 1rem;
-  }
-
   .countdown {
     gap: 1rem;
   }
@@ -935,7 +933,6 @@ img {
   .review {
     padding: 1.25rem;
   }
-
 
   /* Footer */
   .footer-grid {
@@ -1175,12 +1172,12 @@ img {
 
   /* Products */
   .product-grid-4 {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   /* Sale */
   .sale-content {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .sale-content > img {
@@ -1192,25 +1189,30 @@ img {
   }
 
   .countdown {
-    gap: 1rem;
+    gap: 0.4rem;
   }
 
   .countdown li {
-    min-width: 3rem;
+    min-width: 0;
+    font-size: 0.8rem;
+  }
+
+   .countdown i {
+    font-size: 1.4rem;
   }
 
   .countdown strong {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   /* Reviews */
   .review-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   /* Footer */
   .footer-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .footer-bottom {
